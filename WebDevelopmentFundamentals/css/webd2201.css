@@ -1,0 +1,260 @@
+/* 
+Name: Eisha Aqeel
+Date: March 5, 2022
+Filename: webd2201.css
+Purpose: WEBD2201 - Formatting and Layout with Styles
+*/ 
+
+/* A body selector, that defines the font, background color, and the color of the text */
+body{
+    font-family: Arial;
+    background-color: pink;
+    color: green;
+}
+  
+/* A selector for table headings, makes the text red and background a different 
+shade of pink, of the first row of the 3 tables in lab 2*/
+th{
+    color: red;
+    background-color: darksalmon;
+}
+
+/* Used the id selector to set the background colors for all courses in my schedule table, in the lab 2 page. 
+The id selector uses the id attribute of an HTML element to select a specific element. */
+#course1{
+    background-color: turquoise;
+}
+#course2{
+    background-color: turquoise;
+}
+#course3{
+    background-color: turquoise;
+}
+#course4{
+    background-color: turquoise;
+}
+#course5{
+    background-color: turquoise;
+}
+#course6{
+    background-color: turquoise;
+}
+#course7{
+    background-color: turquoise;
+}
+#course8{
+    background-color: turquoise;
+}
+#course9{
+    background-color: turquoise;
+}
+#course10{
+    background-color: turquoise;
+}
+#course11{
+    background-color: turquoise;
+}
+/* Also used the id selector to set the background colors for lunch times in my schedule table, in the lab 2 page.*/
+#lunch1{
+    background-color: yellow;
+}
+#lunch2{
+    background-color: yellow;
+}
+#lunch3{
+    background-color: yellow;
+}
+#lunch4{
+    background-color: yellow;
+}
+
+/* unvisited link */
+a:link {
+    color: orange;
+}
+/* visited link */
+a:visited {
+    color: green;
+}
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+/* selected link */
+a:active {
+    color: blue;
+}
+
+/* Made the table borders collapse, it removed double borders from all tables */ 
+table {
+	border: 2px black;
+    border-collapse: collapse;
+}
+
+/* Text shawdow effect to all headings (h1) */
+h1 {
+    text-shadow: 2px 2px 5px lightseagreen;
+}
+
+/* Made the bullet points in the last section of the lab 1 page open circles*/
+ul.b {
+    list-style-type: circle;
+}
+
+/* Main table on each page is fit 100% */
+#table1, #table2, #table3, #table4{
+    width: 100%;
+}
+
+/* The description for labs in a border*/
+p.double {
+    border-style: double;
+}
+
+/* The first table on my lab 2 page (HTML Table Tags) has the rows change color when hovering over it */
+#tabletags tr:hover {
+    background-color: lightcyan;
+}
+
+/* Term test 1 selectors*/
+/* h3*/
+h3 {
+    font-size: 24pt;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: Helvetica;
+}
+/*span*/
+span {
+    font-size: 12pt;
+    float: right;
+    font-family: Arial;
+    font-style: italic;
+}
+
+#container
+{
+	margin: 0 auto;
+	width: 1200px;
+	background-color: darksalmon;
+}
+
+#header
+{
+	background-color:darkseagreen;
+	padding: 20px;
+}
+
+#header h1
+ { 
+	margin: 0;
+	display: inline;
+}
+
+#header img
+{ 
+	vertical-align: middle;
+	width: 150px;
+}
+
+#sites
+{
+	display: inline-block;
+	/*float: left;*/
+	width: 100%;
+	/*width: 1200px;*/
+    background-color:indianred;
+}
+
+#sites ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#sites ul li
+{
+	list-style-type: none;
+	display: inline-block;
+}
+
+#sites li a
+{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #fff;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+
+#sites li a:hover { 
+	background-color: #ccc; 
+	color: #000;
+}
+
+#navigation
+{
+	display: inline-block;
+	vertical-align: top;
+	/*clear: left;*/
+	/*float: left;*/
+	/*display: inline;*/
+	width: 240px;
+	padding: 10px 0;
+	margin: 0 20px 0 0;
+}
+
+#navigation h3 { margin: 0; }
+
+#navigation ul {
+	padding-left: 0;
+	margin-left: 1px; /* Increase this value to add more space between the points */
+}
+
+#navigation ul li {
+list-style-type: none;
+margin-bottom: 10px; /* Adjust this value to control the vertical spacing */
+}
+
+#content-container
+{
+	/*float: left;*/
+	/*width: 1200px;*/
+	background-color: pink;
+	background-image: url(../images/styles/background.png);
+	/* go up a directory, and then work down into images/styles directory */
+	background-repeat: repeat-y;
+	
+}
+
+#content
+{
+	background-color: pink;
+	display: inline-block;
+	/*float: right;*/
+	width: 860px;
+	padding: 20px 0;
+	margin: 0 0 0 30px;
+	/*display: inline;*/
+}
+
+#content h2 { margin: 0; }
+
+#footer
+{
+	clear: both;
+	background-color:darkseagreen;
+	text-align: right;
+	padding: 20px;
+	height: 1%;
+}
+
+#footer img{
+	vertical-align: middle;
+}
+
+/*fixing the size of the text for lab 4 that says "local navagation bar"*/
+#navbar{
+	font-size:x-large;
+}
